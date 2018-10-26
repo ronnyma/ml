@@ -3,7 +3,10 @@
 Etter på ha installert Anaconda, lag deg et virtuellt miljø:
 
 conda create --name tf python=3.6
-source activate tf
+
+source activate tf #*NIX
+
+activate tf #Windows
 
 git clone https://github.com/ronnyma/ml.git
 
